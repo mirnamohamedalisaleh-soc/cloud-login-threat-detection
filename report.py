@@ -33,4 +33,4 @@ for i, row in alerts.iterrows():
     report_file.write("-" * 60 + "\n\n")
 
 report_file.close()
-print("✅ Incident report generated: incident_report.txt")
+print(" Incident report generated: incident_report.txt")
