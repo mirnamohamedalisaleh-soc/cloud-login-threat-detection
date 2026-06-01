@@ -2,7 +2,7 @@ import pandas as pd
 import random
 from datetime import datetime, timedelta
 
-users = ["mirna@corp.com", "ahmed@corp.com", "sara@corp.com", "admin@corp.com"]
+users = ["john@corp.com", "ahmed@corp.com", "sara@corp.com", "admin@corp.com"]
 countries = ["Egypt", "Egypt", "Egypt", "Russia", "China", "USA"]
 ips = ["197.32.10.1", "197.32.10.2", "185.220.101.5", "45.33.32.156", "10.0.0.5"]
 devices = ["Windows 11", "MacOS", "Linux", "Unknown"]

@@ -1,198 +1,198 @@
 ============================================================
        CLOUD LOGIN THREAT DETECTION - INCIDENT REPORT
-       Generated: 2026-06-01 07:27:59
+       Generated: 2026-06-01 08:59:17
 ============================================================
 
-Total Alerts Found: 84
-High Severity: 62
-Medium Severity: 9
+Total Alerts Found: 86
+High Severity: 73
+Medium Severity: 0
 Low Severity: 13
 
 ============================================================
 
 INCIDENT #1
-  User:      mirna@corp.com
-  Time:      2026-05-29 20:18:02
-  Source IP: 197.32.10.2
-  Country:   Egypt
+  User:      admin@corp.com
+  Time:      2026-05-26 07:08:30
+  Source IP: 197.32.10.1
+  Country:   USA
   Device:    Windows 11
-  Success:   False
-  MFA Used:  True
-  Reason:    Failed login
-  Severity:  Medium
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
 ------------------------------------------------------------
 
 INCIDENT #2
-  User:      ahmed@corp.com
-  Time:      2026-05-27 00:02:02
-  Source IP: 197.32.10.1
-  Country:   Russia
-  Device:    Linux
-  Success:   True
+  User:      admin@corp.com
+  Time:      2026-05-26 09:35:30
+  Source IP: 185.220.101.5
+  Country:   Egypt
+  Device:    Windows 11
+  Success:   False
   MFA Used:  False
-  Reason:    Suspicious country | No MFA
+  Reason:    Suspicious IP | Failed login | No MFA | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #3
-  User:      mirna@corp.com
-  Time:      2026-05-29 03:05:02
-  Source IP: 197.32.10.1
-  Country:   Egypt
-  Device:    Windows 11
+  User:      admin@corp.com
+  Time:      2026-05-26 16:31:30
+  Source IP: 45.33.32.156
+  Country:   China
+  Device:    Unknown
   Success:   False
-  MFA Used:  False
-  Reason:    Failed login | No MFA
-  Severity:  Medium
+  MFA Used:  True
+  Reason:    Suspicious country | Suspicious IP | Failed login | Brute Force Attempt
+  Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #4
-  User:      mirna@corp.com
-  Time:      2026-05-28 21:50:02
-  Source IP: 45.33.32.156
-  Country:   Russia
-  Device:    MacOS
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country | Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #5
-  User:      ahmed@corp.com
-  Time:      2026-05-30 19:39:02
-  Source IP: 10.0.0.5
-  Country:   Egypt
-  Device:    Linux
-  Success:   False
-  MFA Used:  False
-  Reason:    Failed login | No MFA
-  Severity:  Medium
-------------------------------------------------------------
-
-INCIDENT #6
-  User:      sara@corp.com
-  Time:      2026-05-31 00:16:02
-  Source IP: 197.32.10.2
-  Country:   China
-  Device:    Windows 11
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #7
-  User:      sara@corp.com
-  Time:      2026-05-29 12:35:02
+  User:      admin@corp.com
+  Time:      2026-05-26 22:34:30
   Source IP: 197.32.10.1
-  Country:   Russia
+  Country:   China
   Device:    MacOS
-  Success:   False
-  MFA Used:  True
-  Reason:    Suspicious country | Failed login
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #8
-  User:      mirna@corp.com
-  Time:      2026-05-25 08:48:02
-  Source IP: 45.33.32.156
-  Country:   Egypt
-  Device:    Unknown
-  Success:   False
-  MFA Used:  False
-  Reason:    Suspicious IP | Failed login | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #9
-  User:      sara@corp.com
-  Time:      2026-05-26 15:11:02
-  Source IP: 185.220.101.5
-  Country:   USA
-  Device:    Windows 11
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #10
-  User:      mirna@corp.com
-  Time:      2026-05-30 16:11:02
-  Source IP: 10.0.0.5
-  Country:   Russia
-  Device:    Unknown
   Success:   True
   MFA Used:  False
   Reason:    Suspicious country | No MFA
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #11
+INCIDENT #5
   User:      admin@corp.com
-  Time:      2026-05-25 21:51:02
-  Source IP: 45.33.32.156
-  Country:   Russia
+  Time:      2026-05-26 22:52:30
+  Source IP: 10.0.0.5
+  Country:   Egypt
   Device:    MacOS
   Success:   True
   MFA Used:  False
-  Reason:    Suspicious country | Suspicious IP | No MFA
+  Reason:    No MFA | Impossible Travel
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #12
-  User:      sara@corp.com
-  Time:      2026-05-26 10:47:02
-  Source IP: 185.220.101.5
-  Country:   Egypt
-  Device:    Windows 11
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #13
+INCIDENT #6
   User:      admin@corp.com
-  Time:      2026-05-28 07:39:02
-  Source IP: 45.33.32.156
+  Time:      2026-05-26 23:23:30
+  Source IP: 10.0.0.5
   Country:   Egypt
   Device:    Windows 11
+  Success:   False
+  MFA Used:  True
+  Reason:    Failed login | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #7
+  User:      admin@corp.com
+  Time:      2026-05-27 03:53:30
+  Source IP: 197.32.10.1
+  Country:   USA
+  Device:    Unknown
+  Success:   False
+  MFA Used:  False
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #8
+  User:      admin@corp.com
+  Time:      2026-05-27 07:22:30
+  Source IP: 185.220.101.5
+  Country:   USA
+  Device:    MacOS
   Success:   True
   MFA Used:  False
   Reason:    Suspicious IP | No MFA
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #14
-  User:      mirna@corp.com
-  Time:      2026-05-29 13:40:02
-  Source IP: 10.0.0.5
+INCIDENT #9
+  User:      admin@corp.com
+  Time:      2026-05-27 12:06:30
+  Source IP: 185.220.101.5
+  Country:   Egypt
+  Device:    MacOS
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious IP | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #10
+  User:      admin@corp.com
+  Time:      2026-05-27 15:02:30
+  Source IP: 197.32.10.2
+  Country:   Egypt
+  Device:    MacOS
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
+------------------------------------------------------------
+
+INCIDENT #11
+  User:      admin@corp.com
+  Time:      2026-05-28 04:56:30
+  Source IP: 185.220.101.5
+  Country:   USA
+  Device:    Unknown
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #12
+  User:      admin@corp.com
+  Time:      2026-05-28 12:10:30
+  Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    Unknown
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
+------------------------------------------------------------
+
+INCIDENT #13
+  User:      admin@corp.com
+  Time:      2026-05-28 23:54:30
+  Source IP: 45.33.32.156
   Country:   Russia
   Device:    Unknown
   Success:   True
   MFA Used:  True
-  Reason:    Suspicious country
+  Reason:    Suspicious country | Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #14
+  User:      admin@corp.com
+  Time:      2026-05-29 06:49:30
+  Source IP: 10.0.0.5
+  Country:   Russia
+  Device:    Unknown
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | No MFA
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #15
-  User:      ahmed@corp.com
-  Time:      2026-05-27 20:25:02
-  Source IP: 185.220.101.5
-  Country:   Egypt
-  Device:    Unknown
-  Success:   False
+  User:      admin@corp.com
+  Time:      2026-05-29 07:13:30
+  Source IP: 197.32.10.2
+  Country:   China
+  Device:    Windows 11
+  Success:   True
   MFA Used:  True
-  Reason:    Suspicious IP | Failed login
+  Reason:    Suspicious country | Impossible Travel
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #16
   User:      admin@corp.com
-  Time:      2026-06-01 06:03:02
+  Time:      2026-05-30 13:20:30
   Source IP: 185.220.101.5
   Country:   China
   Device:    MacOS
@@ -203,34 +203,46 @@ INCIDENT #16
 ------------------------------------------------------------
 
 INCIDENT #17
-  User:      sara@corp.com
-  Time:      2026-05-31 17:54:02
+  User:      admin@corp.com
+  Time:      2026-05-31 02:08:30
   Source IP: 185.220.101.5
-  Country:   China
+  Country:   Egypt
   Device:    Windows 11
   Success:   True
   MFA Used:  True
-  Reason:    Suspicious country | Suspicious IP
+  Reason:    Suspicious IP
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #18
-  User:      mirna@corp.com
-  Time:      2026-05-26 15:46:02
-  Source IP: 10.0.0.5
+  User:      admin@corp.com
+  Time:      2026-05-31 05:27:30
+  Source IP: 197.32.10.1
   Country:   Russia
-  Device:    Unknown
-  Success:   False
+  Device:    MacOS
+  Success:   True
   MFA Used:  True
-  Reason:    Suspicious country | Failed login
+  Reason:    Suspicious country
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #19
-  User:      sara@corp.com
-  Time:      2026-05-27 18:36:02
+  User:      admin@corp.com
+  Time:      2026-05-31 07:45:30
+  Source IP: 45.33.32.156
+  Country:   USA
+  Device:    MacOS
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #20
+  User:      admin@corp.com
+  Time:      2026-05-31 08:20:30
   Source IP: 197.32.10.2
-  Country:   Egypt
+  Country:   USA
   Device:    Windows 11
   Success:   True
   MFA Used:  False
@@ -238,33 +250,21 @@ INCIDENT #19
   Severity:  Low
 ------------------------------------------------------------
 
-INCIDENT #20
-  User:      ahmed@corp.com
-  Time:      2026-05-29 15:07:02
-  Source IP: 197.32.10.2
-  Country:   Egypt
-  Device:    MacOS
-  Success:   False
-  MFA Used:  False
-  Reason:    Failed login | No MFA
-  Severity:  Medium
-------------------------------------------------------------
-
 INCIDENT #21
-  User:      mirna@corp.com
-  Time:      2026-05-31 16:25:02
-  Source IP: 10.0.0.5
-  Country:   Egypt
+  User:      admin@corp.com
+  Time:      2026-05-31 11:36:30
+  Source IP: 45.33.32.156
+  Country:   USA
   Device:    Unknown
   Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
+  MFA Used:  True
+  Reason:    Suspicious IP
+  Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #22
-  User:      ahmed@corp.com
-  Time:      2026-05-31 10:33:02
+  User:      admin@corp.com
+  Time:      2026-06-01 03:35:30
   Source IP: 10.0.0.5
   Country:   Russia
   Device:    Unknown
@@ -276,79 +276,103 @@ INCIDENT #22
 
 INCIDENT #23
   User:      ahmed@corp.com
-  Time:      2026-05-30 11:11:02
-  Source IP: 185.220.101.5
-  Country:   China
-  Device:    Windows 11
-  Success:   True
+  Time:      2026-05-25 15:05:30
+  Source IP: 10.0.0.5
+  Country:   Russia
+  Device:    MacOS
+  Success:   False
   MFA Used:  True
-  Reason:    Suspicious country | Suspicious IP
+  Reason:    Suspicious country | Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #24
-  User:      admin@corp.com
-  Time:      2026-06-01 06:36:02
+  User:      ahmed@corp.com
+  Time:      2026-05-25 15:58:30
   Source IP: 197.32.10.1
-  Country:   China
-  Device:    Linux
+  Country:   Egypt
+  Device:    Unknown
   Success:   False
-  MFA Used:  True
-  Reason:    Suspicious country | Failed login
+  MFA Used:  False
+  Reason:    Failed login | No MFA | Impossible Travel | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #25
   User:      ahmed@corp.com
-  Time:      2026-05-26 16:55:02
-  Source IP: 185.220.101.5
-  Country:   Egypt
-  Device:    Windows 11
-  Success:   True
+  Time:      2026-05-25 18:47:30
+  Source IP: 197.32.10.1
+  Country:   USA
+  Device:    MacOS
+  Success:   False
   MFA Used:  True
-  Reason:    Suspicious IP
+  Reason:    Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #26
-  User:      sara@corp.com
-  Time:      2026-05-28 09:12:02
+  User:      ahmed@corp.com
+  Time:      2026-05-26 08:22:30
   Source IP: 197.32.10.1
   Country:   China
   Device:    Unknown
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #27
+  User:      ahmed@corp.com
+  Time:      2026-05-26 12:22:30
+  Source IP: 197.32.10.2
+  Country:   Egypt
+  Device:    Linux
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
+------------------------------------------------------------
+
+INCIDENT #28
+  User:      ahmed@corp.com
+  Time:      2026-05-26 15:02:30
+  Source IP: 10.0.0.5
+  Country:   Egypt
+  Device:    MacOS
+  Success:   False
+  MFA Used:  False
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #29
+  User:      ahmed@corp.com
+  Time:      2026-05-26 21:22:30
+  Source IP: 10.0.0.5
+  Country:   China
+  Device:    Windows 11
   Success:   True
   MFA Used:  True
   Reason:    Suspicious country
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #27
-  User:      mirna@corp.com
-  Time:      2026-05-26 05:35:02
-  Source IP: 10.0.0.5
-  Country:   Egypt
-  Device:    MacOS
-  Success:   False
-  MFA Used:  False
-  Reason:    Failed login | No MFA
-  Severity:  Medium
-------------------------------------------------------------
-
-INCIDENT #28
+INCIDENT #30
   User:      ahmed@corp.com
-  Time:      2026-05-31 17:21:02
-  Source IP: 45.33.32.156
-  Country:   China
-  Device:    MacOS
-  Success:   False
+  Time:      2026-05-27 05:12:30
+  Source IP: 185.220.101.5
+  Country:   USA
+  Device:    Linux
+  Success:   True
   MFA Used:  True
-  Reason:    Suspicious country | Suspicious IP | Failed login
+  Reason:    Suspicious IP
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #29
-  User:      mirna@corp.com
-  Time:      2026-05-29 09:55:02
+INCIDENT #31
+  User:      ahmed@corp.com
+  Time:      2026-05-27 16:19:30
   Source IP: 185.220.101.5
   Country:   Egypt
   Device:    Windows 11
@@ -358,22 +382,34 @@ INCIDENT #29
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #30
-  User:      admin@corp.com
-  Time:      2026-05-27 18:52:02
-  Source IP: 197.32.10.2
-  Country:   USA
-  Device:    Unknown
-  Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
+INCIDENT #32
+  User:      ahmed@corp.com
+  Time:      2026-05-28 02:01:30
+  Source IP: 45.33.32.156
+  Country:   Russia
+  Device:    Linux
+  Success:   False
+  MFA Used:  True
+  Reason:    Suspicious country | Suspicious IP | Failed login | Brute Force Attempt
+  Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #31
-  User:      admin@corp.com
-  Time:      2026-05-31 13:04:02
+INCIDENT #33
+  User:      ahmed@corp.com
+  Time:      2026-05-28 03:28:30
   Source IP: 185.220.101.5
+  Country:   Egypt
+  Device:    Unknown
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #34
+  User:      ahmed@corp.com
+  Time:      2026-05-28 03:58:30
+  Source IP: 45.33.32.156
   Country:   Egypt
   Device:    MacOS
   Success:   True
@@ -382,11 +418,35 @@ INCIDENT #31
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #32
-  User:      sara@corp.com
-  Time:      2026-05-26 10:29:02
-  Source IP: 185.220.101.5
+INCIDENT #35
+  User:      ahmed@corp.com
+  Time:      2026-05-29 01:53:30
+  Source IP: 10.0.0.5
   Country:   Russia
+  Device:    Windows 11
+  Success:   False
+  MFA Used:  False
+  Reason:    Suspicious country | Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #36
+  User:      ahmed@corp.com
+  Time:      2026-05-29 17:20:30
+  Source IP: 10.0.0.5
+  Country:   China
+  Device:    Linux
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #37
+  User:      ahmed@corp.com
+  Time:      2026-05-29 17:30:30
+  Source IP: 185.220.101.5
+  Country:   China
   Device:    MacOS
   Success:   True
   MFA Used:  False
@@ -394,240 +454,180 @@ INCIDENT #32
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #33
-  User:      admin@corp.com
-  Time:      2026-05-28 20:01:02
-  Source IP: 185.220.101.5
-  Country:   Egypt
-  Device:    MacOS
-  Success:   False
-  MFA Used:  True
-  Reason:    Suspicious IP | Failed login
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #34
-  User:      sara@corp.com
-  Time:      2026-05-31 20:49:02
-  Source IP: 185.220.101.5
-  Country:   USA
-  Device:    MacOS
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #35
-  User:      admin@corp.com
-  Time:      2026-05-31 05:34:02
-  Source IP: 45.33.32.156
-  Country:   Egypt
-  Device:    MacOS
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #36
-  User:      mirna@corp.com
-  Time:      2026-05-30 07:28:02
-  Source IP: 185.220.101.5
-  Country:   Egypt
-  Device:    Linux
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #37
-  User:      mirna@corp.com
-  Time:      2026-05-31 06:17:02
-  Source IP: 10.0.0.5
-  Country:   Egypt
-  Device:    Linux
-  Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
-------------------------------------------------------------
-
 INCIDENT #38
   User:      ahmed@corp.com
-  Time:      2026-05-27 12:13:02
-  Source IP: 45.33.32.156
-  Country:   China
-  Device:    Unknown
-  Success:   False
-  MFA Used:  False
-  Reason:    Suspicious country | Suspicious IP | Failed login | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #39
-  User:      ahmed@corp.com
-  Time:      2026-05-31 17:35:02
-  Source IP: 197.32.10.2
+  Time:      2026-05-30 00:59:30
+  Source IP: 185.220.101.5
   Country:   Russia
   Device:    MacOS
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #40
-  User:      sara@corp.com
-  Time:      2026-05-25 11:12:02
-  Source IP: 45.33.32.156
-  Country:   Russia
-  Device:    Windows 11
   Success:   True
   MFA Used:  True
   Reason:    Suspicious country | Suspicious IP
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #41
-  User:      mirna@corp.com
-  Time:      2026-05-28 18:18:02
-  Source IP: 185.220.101.5
-  Country:   Egypt
-  Device:    Windows 11
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #42
+INCIDENT #39
   User:      ahmed@corp.com
-  Time:      2026-05-27 09:42:02
-  Source IP: 185.220.101.5
-  Country:   USA
-  Device:    Windows 11
-  Success:   True
+  Time:      2026-05-30 07:26:30
+  Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    Unknown
+  Success:   False
   MFA Used:  False
-  Reason:    Suspicious IP | No MFA
+  Reason:    Failed login | No MFA | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #43
-  User:      admin@corp.com
-  Time:      2026-05-30 12:40:02
+INCIDENT #40
+  User:      ahmed@corp.com
+  Time:      2026-05-31 10:59:30
   Source IP: 185.220.101.5
   Country:   Russia
-  Device:    Unknown
+  Device:    Windows 11
   Success:   True
   MFA Used:  False
   Reason:    Suspicious country | Suspicious IP | No MFA
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #44
-  User:      mirna@corp.com
-  Time:      2026-05-26 03:05:02
-  Source IP: 45.33.32.156
+INCIDENT #41
+  User:      ahmed@corp.com
+  Time:      2026-05-31 13:59:30
+  Source IP: 197.32.10.2
   Country:   Egypt
-  Device:    MacOS
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious IP | No MFA
+  Device:    Windows 11
+  Success:   False
+  MFA Used:  True
+  Reason:    Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #45
-  User:      sara@corp.com
-  Time:      2026-05-25 12:23:02
-  Source IP: 197.32.10.1
+INCIDENT #42
+  User:      ahmed@corp.com
+  Time:      2026-05-31 14:20:30
+  Source IP: 45.33.32.156
   Country:   Egypt
   Device:    Linux
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #43
+  User:      ahmed@corp.com
+  Time:      2026-06-01 04:18:30
+  Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    Windows 11
   Success:   True
   MFA Used:  False
   Reason:    No MFA
   Severity:  Low
 ------------------------------------------------------------
 
-INCIDENT #46
-  User:      admin@corp.com
-  Time:      2026-05-26 11:43:02
+INCIDENT #44
+  User:      ahmed@corp.com
+  Time:      2026-06-01 04:51:30
+  Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    Unknown
+  Success:   False
+  MFA Used:  False
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #45
+  User:      ahmed@corp.com
+  Time:      2026-06-01 05:00:30
   Source IP: 10.0.0.5
   Country:   China
-  Device:    Linux
+  Device:    Unknown
   Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | No MFA
+  MFA Used:  True
+  Reason:    Suspicious country | Impossible Travel
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #46
+  User:      ahmed@corp.com
+  Time:      2026-06-01 07:01:30
+  Source IP: 10.0.0.5
+  Country:   China
+  Device:    MacOS
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #47
-  User:      sara@corp.com
-  Time:      2026-05-30 20:19:02
-  Source IP: 197.32.10.2
+  User:      john@corp.com
+  Time:      2026-05-25 22:04:30
+  Source IP: 10.0.0.5
   Country:   USA
   Device:    Unknown
   Success:   False
   MFA Used:  False
-  Reason:    Failed login | No MFA
-  Severity:  Medium
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #48
-  User:      admin@corp.com
-  Time:      2026-05-30 05:00:02
-  Source IP: 45.33.32.156
-  Country:   Egypt
+  User:      john@corp.com
+  Time:      2026-05-25 23:29:30
+  Source IP: 197.32.10.1
+  Country:   Russia
   Device:    Linux
-  Success:   False
-  MFA Used:  False
-  Reason:    Suspicious IP | Failed login | No MFA
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #49
-  User:      ahmed@corp.com
-  Time:      2026-06-01 01:22:02
+  User:      john@corp.com
+  Time:      2026-05-26 10:40:30
   Source IP: 185.220.101.5
-  Country:   USA
+  Country:   China
   Device:    MacOS
-  Success:   False
-  MFA Used:  True
-  Reason:    Suspicious IP | Failed login
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | Suspicious IP | No MFA
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #50
-  User:      admin@corp.com
-  Time:      2026-05-31 17:21:02
+  User:      john@corp.com
+  Time:      2026-05-27 05:40:30
   Source IP: 45.33.32.156
   Country:   Egypt
-  Device:    Windows 11
+  Device:    MacOS
   Success:   False
-  MFA Used:  False
-  Reason:    Suspicious IP | Failed login | No MFA
+  MFA Used:  True
+  Reason:    Suspicious IP | Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #51
-  User:      admin@corp.com
-  Time:      2026-05-28 15:07:02
-  Source IP: 197.32.10.2
-  Country:   Russia
-  Device:    Unknown
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | No MFA
+  User:      john@corp.com
+  Time:      2026-05-27 12:41:30
+  Source IP: 185.220.101.5
+  Country:   Egypt
+  Device:    Windows 11
+  Success:   False
+  MFA Used:  True
+  Reason:    Suspicious IP | Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #52
-  User:      sara@corp.com
-  Time:      2026-05-25 10:31:02
+  User:      john@corp.com
+  Time:      2026-05-27 19:15:30
   Source IP: 45.33.32.156
   Country:   Egypt
-  Device:    MacOS
+  Device:    Linux
   Success:   True
   MFA Used:  False
   Reason:    Suspicious IP | No MFA
@@ -635,45 +635,45 @@ INCIDENT #52
 ------------------------------------------------------------
 
 INCIDENT #53
-  User:      mirna@corp.com
-  Time:      2026-05-30 08:34:02
-  Source IP: 10.0.0.5
-  Country:   China
-  Device:    Unknown
+  User:      john@corp.com
+  Time:      2026-05-27 23:03:30
+  Source IP: 185.220.101.5
+  Country:   Russia
+  Device:    Windows 11
   Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country
+  MFA Used:  False
+  Reason:    Suspicious country | Suspicious IP | No MFA
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #54
-  User:      ahmed@corp.com
-  Time:      2026-06-01 00:22:02
-  Source IP: 10.0.0.5
-  Country:   China
+  User:      john@corp.com
+  Time:      2026-05-28 04:13:30
+  Source IP: 185.220.101.5
+  Country:   Russia
   Device:    Windows 11
-  Success:   False
+  Success:   True
   MFA Used:  True
-  Reason:    Suspicious country | Failed login
+  Reason:    Suspicious country | Suspicious IP
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #55
-  User:      admin@corp.com
-  Time:      2026-06-01 02:49:02
-  Source IP: 185.220.101.5
+  User:      john@corp.com
+  Time:      2026-05-28 12:56:30
+  Source IP: 10.0.0.5
   Country:   Egypt
-  Device:    MacOS
+  Device:    Windows 11
   Success:   False
   MFA Used:  True
-  Reason:    Suspicious IP | Failed login
+  Reason:    Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #56
-  User:      admin@corp.com
-  Time:      2026-05-26 07:35:02
-  Source IP: 197.32.10.2
+  User:      john@corp.com
+  Time:      2026-05-28 18:01:30
+  Source IP: 10.0.0.5
   Country:   Egypt
   Device:    Windows 11
   Success:   True
@@ -683,238 +683,10 @@ INCIDENT #56
 ------------------------------------------------------------
 
 INCIDENT #57
-  User:      admin@corp.com
-  Time:      2026-05-28 13:11:02
-  Source IP: 197.32.10.2
-  Country:   Egypt
-  Device:    Linux
-  Success:   False
-  MFA Used:  True
-  Reason:    Failed login
-  Severity:  Medium
-------------------------------------------------------------
-
-INCIDENT #58
-  User:      admin@corp.com
-  Time:      2026-05-27 05:23:02
-  Source IP: 10.0.0.5
-  Country:   China
-  Device:    Linux
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #59
-  User:      mirna@corp.com
-  Time:      2026-05-29 22:52:02
-  Source IP: 197.32.10.2
-  Country:   USA
-  Device:    Unknown
-  Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
-------------------------------------------------------------
-
-INCIDENT #60
-  User:      ahmed@corp.com
-  Time:      2026-05-31 19:21:02
-  Source IP: 185.220.101.5
-  Country:   China
-  Device:    Linux
-  Success:   False
-  MFA Used:  False
-  Reason:    Suspicious country | Suspicious IP | Failed login | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #61
-  User:      ahmed@corp.com
-  Time:      2026-05-27 10:29:02
-  Source IP: 45.33.32.156
-  Country:   China
-  Device:    Unknown
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country | Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #62
-  User:      sara@corp.com
-  Time:      2026-05-29 16:10:02
-  Source IP: 10.0.0.5
-  Country:   USA
-  Device:    Windows 11
-  Success:   False
-  MFA Used:  True
-  Reason:    Failed login
-  Severity:  Medium
-------------------------------------------------------------
-
-INCIDENT #63
-  User:      ahmed@corp.com
-  Time:      2026-05-28 22:04:02
-  Source IP: 197.32.10.1
-  Country:   Russia
-  Device:    MacOS
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #64
-  User:      mirna@corp.com
-  Time:      2026-05-29 06:43:02
-  Source IP: 197.32.10.2
-  Country:   Russia
-  Device:    MacOS
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #65
-  User:      mirna@corp.com
-  Time:      2026-05-28 05:16:02
-  Source IP: 197.32.10.2
-  Country:   Russia
-  Device:    Windows 11
-  Success:   False
-  MFA Used:  True
-  Reason:    Suspicious country | Failed login
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #66
-  User:      ahmed@corp.com
-  Time:      2026-05-28 12:07:02
-  Source IP: 197.32.10.1
-  Country:   USA
-  Device:    Linux
-  Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
-------------------------------------------------------------
-
-INCIDENT #67
-  User:      admin@corp.com
-  Time:      2026-05-28 20:02:02
-  Source IP: 45.33.32.156
-  Country:   China
-  Device:    MacOS
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | Suspicious IP | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #68
-  User:      mirna@corp.com
-  Time:      2026-05-27 00:14:02
-  Source IP: 10.0.0.5
-  Country:   Russia
-  Device:    MacOS
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #69
-  User:      sara@corp.com
-  Time:      2026-05-25 11:13:02
-  Source IP: 197.32.10.1
-  Country:   Russia
-  Device:    Unknown
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious country
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #70
-  User:      mirna@corp.com
-  Time:      2026-05-27 01:35:02
-  Source IP: 197.32.10.2
-  Country:   Russia
-  Device:    Linux
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #71
-  User:      ahmed@corp.com
-  Time:      2026-05-26 06:55:02
-  Source IP: 197.32.10.2
-  Country:   Egypt
-  Device:    Linux
-  Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
-------------------------------------------------------------
-
-INCIDENT #72
-  User:      admin@corp.com
-  Time:      2026-05-29 00:36:02
+  User:      john@corp.com
+  Time:      2026-05-29 09:24:30
   Source IP: 45.33.32.156
   Country:   Egypt
-  Device:    Linux
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #73
-  User:      ahmed@corp.com
-  Time:      2026-05-26 03:10:02
-  Source IP: 45.33.32.156
-  Country:   Egypt
-  Device:    Windows 11
-  Success:   True
-  MFA Used:  True
-  Reason:    Suspicious IP
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #74
-  User:      admin@corp.com
-  Time:      2026-05-28 23:20:02
-  Source IP: 197.32.10.2
-  Country:   Egypt
-  Device:    Windows 11
-  Success:   False
-  MFA Used:  False
-  Reason:    Failed login | No MFA
-  Severity:  Medium
-------------------------------------------------------------
-
-INCIDENT #75
-  User:      sara@corp.com
-  Time:      2026-05-27 10:17:02
-  Source IP: 10.0.0.5
-  Country:   Egypt
-  Device:    Unknown
-  Success:   True
-  MFA Used:  False
-  Reason:    No MFA
-  Severity:  Low
-------------------------------------------------------------
-
-INCIDENT #76
-  User:      sara@corp.com
-  Time:      2026-05-29 23:24:02
-  Source IP: 45.33.32.156
-  Country:   USA
   Device:    MacOS
   Success:   True
   MFA Used:  False
@@ -922,10 +694,166 @@ INCIDENT #76
   Severity:  High
 ------------------------------------------------------------
 
-INCIDENT #77
-  User:      sara@corp.com
-  Time:      2026-05-31 13:07:02
+INCIDENT #58
+  User:      john@corp.com
+  Time:      2026-05-29 20:32:30
   Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    Unknown
+  Success:   False
+  MFA Used:  False
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #59
+  User:      john@corp.com
+  Time:      2026-05-30 00:17:30
+  Source IP: 45.33.32.156
+  Country:   Egypt
+  Device:    Unknown
+  Success:   False
+  MFA Used:  False
+  Reason:    Suspicious IP | Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #60
+  User:      john@corp.com
+  Time:      2026-05-30 03:39:30
+  Source IP: 185.220.101.5
+  Country:   Egypt
+  Device:    Unknown
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious IP | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #61
+  User:      john@corp.com
+  Time:      2026-05-30 16:02:30
+  Source IP: 197.32.10.2
+  Country:   Russia
+  Device:    Linux
+  Success:   False
+  MFA Used:  True
+  Reason:    Suspicious country | Failed login | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #62
+  User:      john@corp.com
+  Time:      2026-05-30 22:25:30
+  Source IP: 10.0.0.5
+  Country:   Russia
+  Device:    Unknown
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #63
+  User:      john@corp.com
+  Time:      2026-05-31 06:16:30
+  Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    MacOS
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
+------------------------------------------------------------
+
+INCIDENT #64
+  User:      john@corp.com
+  Time:      2026-05-31 17:26:30
+  Source IP: 10.0.0.5
+  Country:   China
+  Device:    Windows 11
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #65
+  User:      john@corp.com
+  Time:      2026-05-31 20:24:30
+  Source IP: 45.33.32.156
+  Country:   China
+  Device:    Linux
+  Success:   False
+  MFA Used:  False
+  Reason:    Suspicious country | Suspicious IP | Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #66
+  User:      sara@corp.com
+  Time:      2026-05-25 12:23:30
+  Source IP: 197.32.10.1
+  Country:   Egypt
+  Device:    Linux
+  Success:   False
+  MFA Used:  False
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #67
+  User:      sara@corp.com
+  Time:      2026-05-25 17:06:30
+  Source IP: 185.220.101.5
+  Country:   USA
+  Device:    Windows 11
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious IP | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #68
+  User:      sara@corp.com
+  Time:      2026-05-25 23:16:30
+  Source IP: 45.33.32.156
+  Country:   China
+  Device:    Linux
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country | Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #69
+  User:      sara@corp.com
+  Time:      2026-05-26 18:16:30
+  Source IP: 197.32.10.2
+  Country:   Russia
+  Device:    Windows 11
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #70
+  User:      sara@corp.com
+  Time:      2026-05-27 04:05:30
+  Source IP: 10.0.0.5
+  Country:   China
+  Device:    MacOS
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #71
+  User:      sara@corp.com
+  Time:      2026-05-27 08:12:30
+  Source IP: 197.32.10.2
   Country:   Egypt
   Device:    Unknown
   Success:   True
@@ -934,23 +862,95 @@ INCIDENT #77
   Severity:  Low
 ------------------------------------------------------------
 
-INCIDENT #78
-  User:      mirna@corp.com
-  Time:      2026-05-31 21:45:02
+INCIDENT #72
+  User:      sara@corp.com
+  Time:      2026-05-27 09:26:30
   Source IP: 185.220.101.5
   Country:   China
+  Device:    MacOS
+  Success:   False
+  MFA Used:  True
+  Reason:    Suspicious country | Suspicious IP | Failed login | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #73
+  User:      sara@corp.com
+  Time:      2026-05-27 21:38:30
+  Source IP: 197.32.10.2
+  Country:   Egypt
+  Device:    Linux
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
+------------------------------------------------------------
+
+INCIDENT #74
+  User:      sara@corp.com
+  Time:      2026-05-28 05:44:30
+  Source IP: 197.32.10.2
+  Country:   Egypt
   Device:    Linux
   Success:   False
   MFA Used:  False
-  Reason:    Suspicious country | Suspicious IP | Failed login | No MFA
+  Reason:    Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #75
+  User:      sara@corp.com
+  Time:      2026-05-28 12:42:30
+  Source IP: 45.33.32.156
+  Country:   Egypt
+  Device:    MacOS
+  Success:   False
+  MFA Used:  False
+  Reason:    Suspicious IP | Failed login | No MFA | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #76
+  User:      sara@corp.com
+  Time:      2026-05-28 16:55:30
+  Source IP: 197.32.10.2
+  Country:   China
+  Device:    Unknown
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #77
+  User:      sara@corp.com
+  Time:      2026-05-28 22:42:30
+  Source IP: 10.0.0.5
+  Country:   China
+  Device:    MacOS
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious country | No MFA
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #78
+  User:      sara@corp.com
+  Time:      2026-05-29 01:24:30
+  Source IP: 45.33.32.156
+  Country:   Egypt
+  Device:    Windows 11
+  Success:   False
+  MFA Used:  True
+  Reason:    Suspicious IP | Failed login | Brute Force Attempt
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #79
-  User:      admin@corp.com
-  Time:      2026-05-30 14:01:02
+  User:      sara@corp.com
+  Time:      2026-05-29 10:34:30
   Source IP: 197.32.10.1
-  Country:   USA
+  Country:   Egypt
   Device:    Unknown
   Success:   True
   MFA Used:  False
@@ -959,62 +959,86 @@ INCIDENT #79
 ------------------------------------------------------------
 
 INCIDENT #80
-  User:      mirna@corp.com
-  Time:      2026-05-25 17:46:02
+  User:      sara@corp.com
+  Time:      2026-05-29 11:32:30
   Source IP: 197.32.10.2
-  Country:   Russia
-  Device:    Linux
+  Country:   USA
+  Device:    Windows 11
   Success:   True
-  MFA Used:  False
-  Reason:    Suspicious country | No MFA
+  MFA Used:  True
+  Reason:     | Impossible Travel
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #81
-  User:      ahmed@corp.com
-  Time:      2026-05-28 11:52:02
-  Source IP: 185.220.101.5
-  Country:   USA
-  Device:    MacOS
-  Success:   True
-  MFA Used:  False
-  Reason:    Suspicious IP | No MFA
-  Severity:  High
-------------------------------------------------------------
-
-INCIDENT #82
-  User:      mirna@corp.com
-  Time:      2026-05-28 02:59:02
+  User:      sara@corp.com
+  Time:      2026-05-30 04:09:30
   Source IP: 197.32.10.2
-  Country:   USA
-  Device:    Windows 11
+  Country:   Egypt
+  Device:    Linux
   Success:   True
   MFA Used:  False
   Reason:    No MFA
   Severity:  Low
 ------------------------------------------------------------
 
+INCIDENT #82
+  User:      sara@corp.com
+  Time:      2026-05-30 18:18:30
+  Source IP: 185.220.101.5
+  Country:   Russia
+  Device:    MacOS
+  Success:   True
+  MFA Used:  True
+  Reason:    Suspicious country | Suspicious IP
+  Severity:  High
+------------------------------------------------------------
+
 INCIDENT #83
-  User:      admin@corp.com
-  Time:      2026-05-30 20:17:02
+  User:      sara@corp.com
+  Time:      2026-05-30 19:10:30
   Source IP: 185.220.101.5
   Country:   China
-  Device:    Windows 11
-  Success:   False
+  Device:    Linux
+  Success:   True
   MFA Used:  True
-  Reason:    Suspicious country | Suspicious IP | Failed login
+  Reason:    Suspicious country | Suspicious IP | Impossible Travel
   Severity:  High
 ------------------------------------------------------------
 
 INCIDENT #84
-  User:      admin@corp.com
-  Time:      2026-05-29 16:59:02
-  Source IP: 45.33.32.156
+  User:      sara@corp.com
+  Time:      2026-05-30 23:42:30
+  Source IP: 197.32.10.1
   Country:   Egypt
-  Device:    Windows 11
+  Device:    MacOS
   Success:   False
   MFA Used:  True
-  Reason:    Suspicious IP | Failed login
+  Reason:    Failed login | Brute Force Attempt
+  Severity:  High
+------------------------------------------------------------
+
+INCIDENT #85
+  User:      sara@corp.com
+  Time:      2026-05-31 08:28:30
+  Source IP: 197.32.10.2
+  Country:   Egypt
+  Device:    Unknown
+  Success:   True
+  MFA Used:  False
+  Reason:    No MFA
+  Severity:  Low
+------------------------------------------------------------
+
+INCIDENT #86
+  User:      sara@corp.com
+  Time:      2026-05-31 08:48:30
+  Source IP: 185.220.101.5
+  Country:   Egypt
+  Device:    Linux
+  Success:   True
+  MFA Used:  False
+  Reason:    Suspicious IP | No MFA
   Severity:  High
 ------------------------------------------------------------
 

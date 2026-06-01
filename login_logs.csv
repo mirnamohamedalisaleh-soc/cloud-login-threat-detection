@@ -1,101 +1,101 @@
 user,timestamp,source_ip,country,device,success,mfa_used
-mirna@corp.com,2026-05-29 20:18:02,197.32.10.2,Egypt,Windows 11,False,True
-ahmed@corp.com,2026-05-27 00:02:02,197.32.10.1,Russia,Linux,True,False
-mirna@corp.com,2026-05-29 03:05:02,197.32.10.1,Egypt,Windows 11,False,False
-mirna@corp.com,2026-05-28 21:50:02,45.33.32.156,Russia,MacOS,True,True
-ahmed@corp.com,2026-05-30 19:39:02,10.0.0.5,Egypt,Linux,False,False
-ahmed@corp.com,2026-05-28 19:00:02,197.32.10.2,USA,Unknown,True,True
-sara@corp.com,2026-05-31 00:16:02,197.32.10.2,China,Windows 11,True,True
-admin@corp.com,2026-05-26 23:20:02,10.0.0.5,Egypt,Linux,True,True
-sara@corp.com,2026-05-29 12:35:02,197.32.10.1,Russia,MacOS,False,True
-mirna@corp.com,2026-05-25 08:48:02,45.33.32.156,Egypt,Unknown,False,False
-sara@corp.com,2026-05-26 15:11:02,185.220.101.5,USA,Windows 11,True,True
-admin@corp.com,2026-05-27 06:29:02,197.32.10.1,Egypt,Windows 11,True,True
-mirna@corp.com,2026-05-30 16:11:02,10.0.0.5,Russia,Unknown,True,False
-admin@corp.com,2026-05-25 21:51:02,45.33.32.156,Russia,MacOS,True,False
-sara@corp.com,2026-05-26 10:47:02,185.220.101.5,Egypt,Windows 11,True,True
-admin@corp.com,2026-05-28 07:39:02,45.33.32.156,Egypt,Windows 11,True,False
-mirna@corp.com,2026-05-29 13:40:02,10.0.0.5,Russia,Unknown,True,True
-ahmed@corp.com,2026-05-27 20:25:02,185.220.101.5,Egypt,Unknown,False,True
-admin@corp.com,2026-05-25 12:58:02,10.0.0.5,Egypt,Linux,True,True
-admin@corp.com,2026-06-01 06:03:02,185.220.101.5,China,MacOS,True,True
-sara@corp.com,2026-05-31 17:54:02,185.220.101.5,China,Windows 11,True,True
-mirna@corp.com,2026-05-26 15:46:02,10.0.0.5,Russia,Unknown,False,True
-mirna@corp.com,2026-05-27 07:45:02,197.32.10.1,USA,Windows 11,True,True
-sara@corp.com,2026-05-27 18:36:02,197.32.10.2,Egypt,Windows 11,True,False
-ahmed@corp.com,2026-05-29 15:07:02,197.32.10.2,Egypt,MacOS,False,False
-mirna@corp.com,2026-05-31 16:25:02,10.0.0.5,Egypt,Unknown,True,False
-admin@corp.com,2026-05-30 10:35:02,197.32.10.1,USA,Linux,True,True
-ahmed@corp.com,2026-05-31 10:33:02,10.0.0.5,Russia,Unknown,True,True
-ahmed@corp.com,2026-05-30 11:11:02,185.220.101.5,China,Windows 11,True,True
-admin@corp.com,2026-06-01 06:36:02,197.32.10.1,China,Linux,False,True
-ahmed@corp.com,2026-05-26 16:55:02,185.220.101.5,Egypt,Windows 11,True,True
-sara@corp.com,2026-05-28 09:12:02,197.32.10.1,China,Unknown,True,True
-mirna@corp.com,2026-05-26 05:35:02,10.0.0.5,Egypt,MacOS,False,False
-ahmed@corp.com,2026-05-31 17:21:02,45.33.32.156,China,MacOS,False,True
-mirna@corp.com,2026-05-29 09:55:02,185.220.101.5,Egypt,Windows 11,True,True
-ahmed@corp.com,2026-05-30 01:16:02,197.32.10.1,Egypt,Windows 11,True,True
-admin@corp.com,2026-05-27 18:52:02,197.32.10.2,USA,Unknown,True,False
-admin@corp.com,2026-05-31 13:04:02,185.220.101.5,Egypt,MacOS,True,False
-sara@corp.com,2026-05-26 10:29:02,185.220.101.5,Russia,MacOS,True,False
-ahmed@corp.com,2026-05-25 11:35:02,10.0.0.5,Egypt,Unknown,True,True
-admin@corp.com,2026-05-28 20:01:02,185.220.101.5,Egypt,MacOS,False,True
-sara@corp.com,2026-05-31 20:49:02,185.220.101.5,USA,MacOS,True,True
-admin@corp.com,2026-05-31 05:34:02,45.33.32.156,Egypt,MacOS,True,True
-mirna@corp.com,2026-05-30 07:28:02,185.220.101.5,Egypt,Linux,True,True
-mirna@corp.com,2026-05-31 06:17:02,10.0.0.5,Egypt,Linux,True,False
-ahmed@corp.com,2026-05-27 12:13:02,45.33.32.156,China,Unknown,False,False
-ahmed@corp.com,2026-05-31 17:35:02,197.32.10.2,Russia,MacOS,True,False
-sara@corp.com,2026-05-25 11:12:02,45.33.32.156,Russia,Windows 11,True,True
-mirna@corp.com,2026-05-28 18:18:02,185.220.101.5,Egypt,Windows 11,True,True
-ahmed@corp.com,2026-05-27 09:42:02,185.220.101.5,USA,Windows 11,True,False
-admin@corp.com,2026-05-30 12:40:02,185.220.101.5,Russia,Unknown,True,False
-mirna@corp.com,2026-05-26 03:05:02,45.33.32.156,Egypt,MacOS,True,False
-ahmed@corp.com,2026-05-31 04:54:02,197.32.10.2,Egypt,MacOS,True,True
-sara@corp.com,2026-05-25 12:23:02,197.32.10.1,Egypt,Linux,True,False
-admin@corp.com,2026-05-26 11:43:02,10.0.0.5,China,Linux,True,False
-sara@corp.com,2026-05-30 20:19:02,197.32.10.2,USA,Unknown,False,False
-admin@corp.com,2026-05-30 05:00:02,45.33.32.156,Egypt,Linux,False,False
-ahmed@corp.com,2026-06-01 01:22:02,185.220.101.5,USA,MacOS,False,True
-admin@corp.com,2026-05-31 17:21:02,45.33.32.156,Egypt,Windows 11,False,False
-mirna@corp.com,2026-05-25 22:03:02,197.32.10.1,Egypt,Windows 11,True,True
-mirna@corp.com,2026-05-26 09:33:02,10.0.0.5,Egypt,MacOS,True,True
-ahmed@corp.com,2026-05-27 22:22:02,197.32.10.2,Egypt,MacOS,True,True
-admin@corp.com,2026-05-28 15:07:02,197.32.10.2,Russia,Unknown,True,False
-sara@corp.com,2026-05-25 10:31:02,45.33.32.156,Egypt,MacOS,True,False
-mirna@corp.com,2026-05-30 08:34:02,10.0.0.5,China,Unknown,True,True
-ahmed@corp.com,2026-06-01 00:22:02,10.0.0.5,China,Windows 11,False,True
-admin@corp.com,2026-06-01 02:49:02,185.220.101.5,Egypt,MacOS,False,True
-sara@corp.com,2026-05-29 11:34:02,10.0.0.5,Egypt,MacOS,True,True
-admin@corp.com,2026-05-26 07:35:02,197.32.10.2,Egypt,Windows 11,True,False
-mirna@corp.com,2026-05-31 21:11:02,197.32.10.2,Egypt,Linux,True,True
-admin@corp.com,2026-05-28 13:11:02,197.32.10.2,Egypt,Linux,False,True
-admin@corp.com,2026-05-27 05:23:02,10.0.0.5,China,Linux,True,False
-mirna@corp.com,2026-05-29 22:52:02,197.32.10.2,USA,Unknown,True,False
-ahmed@corp.com,2026-05-31 19:21:02,185.220.101.5,China,Linux,False,False
-ahmed@corp.com,2026-05-27 10:29:02,45.33.32.156,China,Unknown,True,True
-sara@corp.com,2026-05-29 16:10:02,10.0.0.5,USA,Windows 11,False,True
-ahmed@corp.com,2026-05-28 22:04:02,197.32.10.1,Russia,MacOS,True,True
-mirna@corp.com,2026-05-29 06:43:02,197.32.10.2,Russia,MacOS,True,True
-mirna@corp.com,2026-05-28 05:16:02,197.32.10.2,Russia,Windows 11,False,True
-ahmed@corp.com,2026-05-28 12:07:02,197.32.10.1,USA,Linux,True,False
-admin@corp.com,2026-05-28 20:02:02,45.33.32.156,China,MacOS,True,False
-sara@corp.com,2026-05-31 04:18:02,197.32.10.2,Egypt,Windows 11,True,True
-mirna@corp.com,2026-05-27 00:14:02,10.0.0.5,Russia,MacOS,True,True
-sara@corp.com,2026-05-25 11:13:02,197.32.10.1,Russia,Unknown,True,True
-mirna@corp.com,2026-05-27 01:35:02,197.32.10.2,Russia,Linux,True,False
-ahmed@corp.com,2026-05-26 06:55:02,197.32.10.2,Egypt,Linux,True,False
-admin@corp.com,2026-05-29 00:36:02,45.33.32.156,Egypt,Linux,True,True
-ahmed@corp.com,2026-05-26 03:10:02,45.33.32.156,Egypt,Windows 11,True,True
-admin@corp.com,2026-05-28 23:20:02,197.32.10.2,Egypt,Windows 11,False,False
-sara@corp.com,2026-05-27 10:17:02,10.0.0.5,Egypt,Unknown,True,False
-sara@corp.com,2026-05-29 23:24:02,45.33.32.156,USA,MacOS,True,False
-sara@corp.com,2026-05-31 13:07:02,197.32.10.1,Egypt,Unknown,True,False
-mirna@corp.com,2026-05-31 21:45:02,185.220.101.5,China,Linux,False,False
-admin@corp.com,2026-05-30 14:01:02,197.32.10.1,USA,Unknown,True,False
-mirna@corp.com,2026-05-25 17:46:02,197.32.10.2,Russia,Linux,True,False
-ahmed@corp.com,2026-05-28 11:52:02,185.220.101.5,USA,MacOS,True,False
-mirna@corp.com,2026-05-28 02:59:02,197.32.10.2,USA,Windows 11,True,False
-admin@corp.com,2026-05-30 20:17:02,185.220.101.5,China,Windows 11,False,True
-ahmed@corp.com,2026-05-27 14:41:02,10.0.0.5,Egypt,Unknown,True,True
-admin@corp.com,2026-05-29 16:59:02,45.33.32.156,Egypt,Windows 11,False,True
+admin@corp.com,2026-05-25 20:19:30,10.0.0.5,Egypt,Linux,True,True
+ahmed@corp.com,2026-05-29 01:53:30,10.0.0.5,Russia,Windows 11,False,False
+admin@corp.com,2026-05-31 20:22:30,10.0.0.5,Egypt,MacOS,True,True
+john@corp.com,2026-05-28 04:13:30,185.220.101.5,Russia,Windows 11,True,True
+admin@corp.com,2026-05-28 07:27:30,197.32.10.1,Egypt,Unknown,True,True
+ahmed@corp.com,2026-05-26 15:02:30,10.0.0.5,Egypt,MacOS,False,False
+john@corp.com,2026-05-31 06:16:30,197.32.10.1,Egypt,MacOS,True,False
+admin@corp.com,2026-05-26 22:34:30,197.32.10.1,China,MacOS,True,False
+admin@corp.com,2026-05-26 23:23:30,10.0.0.5,Egypt,Windows 11,False,True
+admin@corp.com,2026-05-28 12:10:30,197.32.10.1,Egypt,Unknown,True,False
+john@corp.com,2026-05-27 12:41:30,185.220.101.5,Egypt,Windows 11,False,True
+john@corp.com,2026-05-26 15:27:30,197.32.10.2,Egypt,MacOS,True,True
+sara@corp.com,2026-05-25 17:06:30,185.220.101.5,USA,Windows 11,True,False
+ahmed@corp.com,2026-05-25 15:05:30,10.0.0.5,Russia,MacOS,False,True
+admin@corp.com,2026-05-27 12:06:30,185.220.101.5,Egypt,MacOS,True,False
+sara@corp.com,2026-05-28 12:42:30,45.33.32.156,Egypt,MacOS,False,False
+john@corp.com,2026-05-27 23:03:30,185.220.101.5,Russia,Windows 11,True,False
+admin@corp.com,2026-05-27 15:02:30,197.32.10.2,Egypt,MacOS,True,False
+admin@corp.com,2026-06-01 07:13:30,10.0.0.5,Egypt,Unknown,True,True
+john@corp.com,2026-05-30 22:25:30,10.0.0.5,Russia,Unknown,True,True
+sara@corp.com,2026-05-30 19:10:30,185.220.101.5,China,Linux,True,True
+admin@corp.com,2026-05-26 22:52:30,10.0.0.5,Egypt,MacOS,True,False
+admin@corp.com,2026-05-27 03:53:30,197.32.10.1,USA,Unknown,False,False
+ahmed@corp.com,2026-05-27 16:19:30,185.220.101.5,Egypt,Windows 11,True,True
+admin@corp.com,2026-05-30 13:20:30,185.220.101.5,China,MacOS,True,True
+ahmed@corp.com,2026-05-25 15:58:30,197.32.10.1,Egypt,Unknown,False,False
+sara@corp.com,2026-05-30 23:42:30,197.32.10.1,Egypt,MacOS,False,True
+admin@corp.com,2026-05-31 11:36:30,45.33.32.156,USA,Unknown,True,True
+sara@corp.com,2026-05-28 07:27:30,10.0.0.5,Egypt,Linux,True,True
+john@corp.com,2026-05-26 10:40:30,185.220.101.5,China,MacOS,True,False
+ahmed@corp.com,2026-06-01 07:01:30,10.0.0.5,China,MacOS,True,True
+john@corp.com,2026-05-30 03:39:30,185.220.101.5,Egypt,Unknown,True,False
+admin@corp.com,2026-05-31 05:27:30,197.32.10.1,Russia,MacOS,True,True
+sara@corp.com,2026-05-30 04:09:30,197.32.10.2,Egypt,Linux,True,False
+john@corp.com,2026-06-01 04:12:30,197.32.10.2,Egypt,MacOS,True,True
+sara@corp.com,2026-05-28 16:55:30,197.32.10.2,China,Unknown,True,False
+ahmed@corp.com,2026-05-26 21:22:30,10.0.0.5,China,Windows 11,True,True
+admin@corp.com,2026-05-29 07:13:30,197.32.10.2,China,Windows 11,True,True
+ahmed@corp.com,2026-05-31 10:59:30,185.220.101.5,Russia,Windows 11,True,False
+john@corp.com,2026-05-30 00:17:30,45.33.32.156,Egypt,Unknown,False,False
+admin@corp.com,2026-05-28 23:54:30,45.33.32.156,Russia,Unknown,True,True
+ahmed@corp.com,2026-05-31 13:59:30,197.32.10.2,Egypt,Windows 11,False,True
+sara@corp.com,2026-05-27 08:12:30,197.32.10.2,Egypt,Unknown,True,False
+ahmed@corp.com,2026-05-30 00:59:30,185.220.101.5,Russia,MacOS,True,True
+john@corp.com,2026-05-29 20:32:30,197.32.10.1,Egypt,Unknown,False,False
+sara@corp.com,2026-05-31 08:48:30,185.220.101.5,Egypt,Linux,True,False
+admin@corp.com,2026-05-28 04:56:30,185.220.101.5,USA,Unknown,True,True
+sara@corp.com,2026-05-29 10:34:30,197.32.10.1,Egypt,Unknown,True,False
+admin@corp.com,2026-05-29 06:49:30,10.0.0.5,Russia,Unknown,True,False
+ahmed@corp.com,2026-06-01 05:00:30,10.0.0.5,China,Unknown,True,True
+admin@corp.com,2026-06-01 03:35:30,10.0.0.5,Russia,Unknown,True,True
+john@corp.com,2026-05-25 18:10:30,10.0.0.5,Egypt,Linux,True,True
+sara@corp.com,2026-05-27 04:05:30,10.0.0.5,China,MacOS,True,False
+ahmed@corp.com,2026-05-29 17:30:30,185.220.101.5,China,MacOS,True,False
+sara@corp.com,2026-05-28 22:42:30,10.0.0.5,China,MacOS,True,False
+ahmed@corp.com,2026-06-01 04:18:30,197.32.10.1,Egypt,Windows 11,True,False
+john@corp.com,2026-05-30 16:02:30,197.32.10.2,Russia,Linux,False,True
+sara@corp.com,2026-05-25 21:51:30,10.0.0.5,Egypt,Linux,True,True
+john@corp.com,2026-05-31 20:24:30,45.33.32.156,China,Linux,False,False
+sara@corp.com,2026-05-30 15:26:30,197.32.10.1,Egypt,Unknown,True,True
+sara@corp.com,2026-05-27 09:26:30,185.220.101.5,China,MacOS,False,True
+sara@corp.com,2026-05-27 21:38:30,197.32.10.2,Egypt,Linux,True,False
+ahmed@corp.com,2026-05-28 03:58:30,45.33.32.156,Egypt,MacOS,True,False
+ahmed@corp.com,2026-05-28 03:28:30,185.220.101.5,Egypt,Unknown,True,True
+john@corp.com,2026-05-29 09:24:30,45.33.32.156,Egypt,MacOS,True,False
+sara@corp.com,2026-05-31 08:28:30,197.32.10.2,Egypt,Unknown,True,False
+sara@corp.com,2026-05-25 12:23:30,197.32.10.1,Egypt,Linux,False,False
+sara@corp.com,2026-05-28 05:44:30,197.32.10.2,Egypt,Linux,False,False
+admin@corp.com,2026-05-31 02:08:30,185.220.101.5,Egypt,Windows 11,True,True
+admin@corp.com,2026-05-27 07:22:30,185.220.101.5,USA,MacOS,True,False
+ahmed@corp.com,2026-05-30 07:26:30,197.32.10.1,Egypt,Unknown,False,False
+admin@corp.com,2026-05-26 16:31:30,45.33.32.156,China,Unknown,False,True
+admin@corp.com,2026-05-31 07:45:30,45.33.32.156,USA,MacOS,True,True
+sara@corp.com,2026-05-29 01:24:30,45.33.32.156,Egypt,Windows 11,False,True
+ahmed@corp.com,2026-06-01 04:51:30,197.32.10.1,Egypt,Unknown,False,False
+ahmed@corp.com,2026-05-29 17:20:30,10.0.0.5,China,Linux,True,True
+admin@corp.com,2026-05-31 08:20:30,197.32.10.2,USA,Windows 11,True,False
+sara@corp.com,2026-05-25 23:16:30,45.33.32.156,China,Linux,True,True
+sara@corp.com,2026-05-26 18:16:30,197.32.10.2,Russia,Windows 11,True,False
+john@corp.com,2026-05-25 22:04:30,10.0.0.5,USA,Unknown,False,False
+sara@corp.com,2026-05-29 11:32:30,197.32.10.2,USA,Windows 11,True,True
+ahmed@corp.com,2026-05-27 05:12:30,185.220.101.5,USA,Linux,True,True
+john@corp.com,2026-05-28 18:01:30,10.0.0.5,Egypt,Windows 11,True,False
+sara@corp.com,2026-05-29 23:15:30,197.32.10.2,Egypt,Unknown,True,True
+john@corp.com,2026-05-30 13:47:30,197.32.10.2,Egypt,Windows 11,True,True
+admin@corp.com,2026-05-26 09:35:30,185.220.101.5,Egypt,Windows 11,False,False
+ahmed@corp.com,2026-05-26 08:22:30,197.32.10.1,China,Unknown,True,False
+john@corp.com,2026-05-27 05:40:30,45.33.32.156,Egypt,MacOS,False,True
+john@corp.com,2026-05-28 12:56:30,10.0.0.5,Egypt,Windows 11,False,True
+admin@corp.com,2026-05-30 01:01:30,197.32.10.1,Egypt,MacOS,True,True
+ahmed@corp.com,2026-05-25 18:47:30,197.32.10.1,USA,MacOS,False,True
+john@corp.com,2026-05-31 17:26:30,10.0.0.5,China,Windows 11,True,True
+sara@corp.com,2026-05-26 12:16:30,197.32.10.1,Egypt,Windows 11,True,True
+ahmed@corp.com,2026-05-31 14:20:30,45.33.32.156,Egypt,Linux,True,True
+ahmed@corp.com,2026-05-28 02:01:30,45.33.32.156,Russia,Linux,False,True
+ahmed@corp.com,2026-05-26 12:22:30,197.32.10.2,Egypt,Linux,True,False
+john@corp.com,2026-05-25 23:29:30,197.32.10.1,Russia,Linux,True,True
+sara@corp.com,2026-05-30 18:18:30,185.220.101.5,Russia,MacOS,True,True
+admin@corp.com,2026-05-26 07:08:30,197.32.10.1,USA,Windows 11,True,False
+john@corp.com,2026-05-27 19:15:30,45.33.32.156,Egypt,Linux,True,False
