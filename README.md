@@ -33,4 +33,4 @@ Build a practical detection system that thinks like a SOC analyst.
 
 ## Built With
 - Python
-- Panda
+- Pandas
