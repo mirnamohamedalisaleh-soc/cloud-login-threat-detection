@@ -1,0 +1,85 @@
+user,timestamp,source_ip,country,device,success,mfa_used,alert,reason,severity
+mirna@corp.com,2026-05-29 20:18:02,197.32.10.2,Egypt,Windows 11,False,True,True,Failed login,Medium
+ahmed@corp.com,2026-05-27 00:02:02,197.32.10.1,Russia,Linux,True,False,True,Suspicious country | No MFA,High
+mirna@corp.com,2026-05-29 03:05:02,197.32.10.1,Egypt,Windows 11,False,False,True,Failed login | No MFA,Medium
+mirna@corp.com,2026-05-28 21:50:02,45.33.32.156,Russia,MacOS,True,True,True,Suspicious country | Suspicious IP,High
+ahmed@corp.com,2026-05-30 19:39:02,10.0.0.5,Egypt,Linux,False,False,True,Failed login | No MFA,Medium
+sara@corp.com,2026-05-31 00:16:02,197.32.10.2,China,Windows 11,True,True,True,Suspicious country,High
+sara@corp.com,2026-05-29 12:35:02,197.32.10.1,Russia,MacOS,False,True,True,Suspicious country | Failed login,High
+mirna@corp.com,2026-05-25 08:48:02,45.33.32.156,Egypt,Unknown,False,False,True,Suspicious IP | Failed login | No MFA,High
+sara@corp.com,2026-05-26 15:11:02,185.220.101.5,USA,Windows 11,True,True,True,Suspicious IP,High
+mirna@corp.com,2026-05-30 16:11:02,10.0.0.5,Russia,Unknown,True,False,True,Suspicious country | No MFA,High
+admin@corp.com,2026-05-25 21:51:02,45.33.32.156,Russia,MacOS,True,False,True,Suspicious country | Suspicious IP | No MFA,High
+sara@corp.com,2026-05-26 10:47:02,185.220.101.5,Egypt,Windows 11,True,True,True,Suspicious IP,High
+admin@corp.com,2026-05-28 07:39:02,45.33.32.156,Egypt,Windows 11,True,False,True,Suspicious IP | No MFA,High
+mirna@corp.com,2026-05-29 13:40:02,10.0.0.5,Russia,Unknown,True,True,True,Suspicious country,High
+ahmed@corp.com,2026-05-27 20:25:02,185.220.101.5,Egypt,Unknown,False,True,True,Suspicious IP | Failed login,High
+admin@corp.com,2026-06-01 06:03:02,185.220.101.5,China,MacOS,True,True,True,Suspicious country | Suspicious IP,High
+sara@corp.com,2026-05-31 17:54:02,185.220.101.5,China,Windows 11,True,True,True,Suspicious country | Suspicious IP,High
+mirna@corp.com,2026-05-26 15:46:02,10.0.0.5,Russia,Unknown,False,True,True,Suspicious country | Failed login,High
+sara@corp.com,2026-05-27 18:36:02,197.32.10.2,Egypt,Windows 11,True,False,True,No MFA,Low
+ahmed@corp.com,2026-05-29 15:07:02,197.32.10.2,Egypt,MacOS,False,False,True,Failed login | No MFA,Medium
+mirna@corp.com,2026-05-31 16:25:02,10.0.0.5,Egypt,Unknown,True,False,True,No MFA,Low
+ahmed@corp.com,2026-05-31 10:33:02,10.0.0.5,Russia,Unknown,True,True,True,Suspicious country,High
+ahmed@corp.com,2026-05-30 11:11:02,185.220.101.5,China,Windows 11,True,True,True,Suspicious country | Suspicious IP,High
+admin@corp.com,2026-06-01 06:36:02,197.32.10.1,China,Linux,False,True,True,Suspicious country | Failed login,High
+ahmed@corp.com,2026-05-26 16:55:02,185.220.101.5,Egypt,Windows 11,True,True,True,Suspicious IP,High
+sara@corp.com,2026-05-28 09:12:02,197.32.10.1,China,Unknown,True,True,True,Suspicious country,High
+mirna@corp.com,2026-05-26 05:35:02,10.0.0.5,Egypt,MacOS,False,False,True,Failed login | No MFA,Medium
+ahmed@corp.com,2026-05-31 17:21:02,45.33.32.156,China,MacOS,False,True,True,Suspicious country | Suspicious IP | Failed login,High
+mirna@corp.com,2026-05-29 09:55:02,185.220.101.5,Egypt,Windows 11,True,True,True,Suspicious IP,High
+admin@corp.com,2026-05-27 18:52:02,197.32.10.2,USA,Unknown,True,False,True,No MFA,Low
+admin@corp.com,2026-05-31 13:04:02,185.220.101.5,Egypt,MacOS,True,False,True,Suspicious IP | No MFA,High
+sara@corp.com,2026-05-26 10:29:02,185.220.101.5,Russia,MacOS,True,False,True,Suspicious country | Suspicious IP | No MFA,High
+admin@corp.com,2026-05-28 20:01:02,185.220.101.5,Egypt,MacOS,False,True,True,Suspicious IP | Failed login,High
+sara@corp.com,2026-05-31 20:49:02,185.220.101.5,USA,MacOS,True,True,True,Suspicious IP,High
+admin@corp.com,2026-05-31 05:34:02,45.33.32.156,Egypt,MacOS,True,True,True,Suspicious IP,High
+mirna@corp.com,2026-05-30 07:28:02,185.220.101.5,Egypt,Linux,True,True,True,Suspicious IP,High
+mirna@corp.com,2026-05-31 06:17:02,10.0.0.5,Egypt,Linux,True,False,True,No MFA,Low
+ahmed@corp.com,2026-05-27 12:13:02,45.33.32.156,China,Unknown,False,False,True,Suspicious country | Suspicious IP | Failed login | No MFA,High
+ahmed@corp.com,2026-05-31 17:35:02,197.32.10.2,Russia,MacOS,True,False,True,Suspicious country | No MFA,High
+sara@corp.com,2026-05-25 11:12:02,45.33.32.156,Russia,Windows 11,True,True,True,Suspicious country | Suspicious IP,High
+mirna@corp.com,2026-05-28 18:18:02,185.220.101.5,Egypt,Windows 11,True,True,True,Suspicious IP,High
+ahmed@corp.com,2026-05-27 09:42:02,185.220.101.5,USA,Windows 11,True,False,True,Suspicious IP | No MFA,High
+admin@corp.com,2026-05-30 12:40:02,185.220.101.5,Russia,Unknown,True,False,True,Suspicious country | Suspicious IP | No MFA,High
+mirna@corp.com,2026-05-26 03:05:02,45.33.32.156,Egypt,MacOS,True,False,True,Suspicious IP | No MFA,High
+sara@corp.com,2026-05-25 12:23:02,197.32.10.1,Egypt,Linux,True,False,True,No MFA,Low
+admin@corp.com,2026-05-26 11:43:02,10.0.0.5,China,Linux,True,False,True,Suspicious country | No MFA,High
+sara@corp.com,2026-05-30 20:19:02,197.32.10.2,USA,Unknown,False,False,True,Failed login | No MFA,Medium
+admin@corp.com,2026-05-30 05:00:02,45.33.32.156,Egypt,Linux,False,False,True,Suspicious IP | Failed login | No MFA,High
+ahmed@corp.com,2026-06-01 01:22:02,185.220.101.5,USA,MacOS,False,True,True,Suspicious IP | Failed login,High
+admin@corp.com,2026-05-31 17:21:02,45.33.32.156,Egypt,Windows 11,False,False,True,Suspicious IP | Failed login | No MFA,High
+admin@corp.com,2026-05-28 15:07:02,197.32.10.2,Russia,Unknown,True,False,True,Suspicious country | No MFA,High
+sara@corp.com,2026-05-25 10:31:02,45.33.32.156,Egypt,MacOS,True,False,True,Suspicious IP | No MFA,High
+mirna@corp.com,2026-05-30 08:34:02,10.0.0.5,China,Unknown,True,True,True,Suspicious country,High
+ahmed@corp.com,2026-06-01 00:22:02,10.0.0.5,China,Windows 11,False,True,True,Suspicious country | Failed login,High
+admin@corp.com,2026-06-01 02:49:02,185.220.101.5,Egypt,MacOS,False,True,True,Suspicious IP | Failed login,High
+admin@corp.com,2026-05-26 07:35:02,197.32.10.2,Egypt,Windows 11,True,False,True,No MFA,Low
+admin@corp.com,2026-05-28 13:11:02,197.32.10.2,Egypt,Linux,False,True,True,Failed login,Medium
+admin@corp.com,2026-05-27 05:23:02,10.0.0.5,China,Linux,True,False,True,Suspicious country | No MFA,High
+mirna@corp.com,2026-05-29 22:52:02,197.32.10.2,USA,Unknown,True,False,True,No MFA,Low
+ahmed@corp.com,2026-05-31 19:21:02,185.220.101.5,China,Linux,False,False,True,Suspicious country | Suspicious IP | Failed login | No MFA,High
+ahmed@corp.com,2026-05-27 10:29:02,45.33.32.156,China,Unknown,True,True,True,Suspicious country | Suspicious IP,High
+sara@corp.com,2026-05-29 16:10:02,10.0.0.5,USA,Windows 11,False,True,True,Failed login,Medium
+ahmed@corp.com,2026-05-28 22:04:02,197.32.10.1,Russia,MacOS,True,True,True,Suspicious country,High
+mirna@corp.com,2026-05-29 06:43:02,197.32.10.2,Russia,MacOS,True,True,True,Suspicious country,High
+mirna@corp.com,2026-05-28 05:16:02,197.32.10.2,Russia,Windows 11,False,True,True,Suspicious country | Failed login,High
+ahmed@corp.com,2026-05-28 12:07:02,197.32.10.1,USA,Linux,True,False,True,No MFA,Low
+admin@corp.com,2026-05-28 20:02:02,45.33.32.156,China,MacOS,True,False,True,Suspicious country | Suspicious IP | No MFA,High
+mirna@corp.com,2026-05-27 00:14:02,10.0.0.5,Russia,MacOS,True,True,True,Suspicious country,High
+sara@corp.com,2026-05-25 11:13:02,197.32.10.1,Russia,Unknown,True,True,True,Suspicious country,High
+mirna@corp.com,2026-05-27 01:35:02,197.32.10.2,Russia,Linux,True,False,True,Suspicious country | No MFA,High
+ahmed@corp.com,2026-05-26 06:55:02,197.32.10.2,Egypt,Linux,True,False,True,No MFA,Low
+admin@corp.com,2026-05-29 00:36:02,45.33.32.156,Egypt,Linux,True,True,True,Suspicious IP,High
+ahmed@corp.com,2026-05-26 03:10:02,45.33.32.156,Egypt,Windows 11,True,True,True,Suspicious IP,High
+admin@corp.com,2026-05-28 23:20:02,197.32.10.2,Egypt,Windows 11,False,False,True,Failed login | No MFA,Medium
+sara@corp.com,2026-05-27 10:17:02,10.0.0.5,Egypt,Unknown,True,False,True,No MFA,Low
+sara@corp.com,2026-05-29 23:24:02,45.33.32.156,USA,MacOS,True,False,True,Suspicious IP | No MFA,High
+sara@corp.com,2026-05-31 13:07:02,197.32.10.1,Egypt,Unknown,True,False,True,No MFA,Low
+mirna@corp.com,2026-05-31 21:45:02,185.220.101.5,China,Linux,False,False,True,Suspicious country | Suspicious IP | Failed login | No MFA,High
+admin@corp.com,2026-05-30 14:01:02,197.32.10.1,USA,Unknown,True,False,True,No MFA,Low
+mirna@corp.com,2026-05-25 17:46:02,197.32.10.2,Russia,Linux,True,False,True,Suspicious country | No MFA,High
+ahmed@corp.com,2026-05-28 11:52:02,185.220.101.5,USA,MacOS,True,False,True,Suspicious IP | No MFA,High
+mirna@corp.com,2026-05-28 02:59:02,197.32.10.2,USA,Windows 11,True,False,True,No MFA,Low
+admin@corp.com,2026-05-30 20:17:02,185.220.101.5,China,Windows 11,False,True,True,Suspicious country | Suspicious IP | Failed login,High
+admin@corp.com,2026-05-29 16:59:02,45.33.32.156,Egypt,Windows 11,False,True,True,Suspicious IP | Failed login,High
