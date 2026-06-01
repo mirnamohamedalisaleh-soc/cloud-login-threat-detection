@@ -7,7 +7,7 @@ Build a practical detection system that thinks like a SOC analyst.
 
 ## What It Does
 - Reads login data from a CSV file
-- Checks each login against 4 detection rules
+- Checks each login against 6 detection rules
 - Assigns a severity level to each alert
 - Generates a full incident report
 
@@ -16,9 +16,11 @@ Build a practical detection system that thinks like a SOC analyst.
 2. Login from a suspicious IP address
 3. Failed login attempt
 4. No MFA used
+5. Impossible Travel (same user logs in from two different countries within 60 minutes)
+6. Brute Force Detection (3 or more failed logins from the same user)
 
 ## Severity Levels
-- High = suspicious country or IP
+- High = suspicious country, IP, impossible travel, or brute force
 - Medium = failed login
 - Low = no MFA
 
@@ -31,4 +33,4 @@ Build a practical detection system that thinks like a SOC analyst.
 
 ## Built With
 - Python
-- Pandas
+- Panda
