@@ -28,4 +28,4 @@ for i in range(100):
 
 df = pd.DataFrame(rows)
 df.to_csv("login_logs.csv", index=False)
-print("✅ login_logs.csv created!")
+print(" login_logs.csv created!")
